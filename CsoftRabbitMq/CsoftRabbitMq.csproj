@@ -11,6 +11,7 @@
 		<PackageTags>RabbitMq, NetCore</PackageTags>
 		<Title>Csoft Rabbit MQ Kütüphanesi</Title>
 		<Company>Çemrek Bilgi Teknoljileri</Company>
+		<RepositoryUrl>https://github.com/ilkrkdrylmz/CsoftRabbitMq</RepositoryUrl>
 	</PropertyGroup>
 
 	<ItemGroup>
