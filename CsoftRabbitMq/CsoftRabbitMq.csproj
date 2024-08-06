@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PackageId>CsoftRabbitMq</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>İlker Kadir Yılmaz</Authors>
+		<Description>Rabbit MQ işlemlerini kolaylaştırmak için hazırladığımız bir kütüphane.</Description>
+		<PackageTags>RabbitMq, NetCore</PackageTags>
+		<Title>Csoft Rabbit MQ Kütüphanesi</Title>
+		<Company>Çemrek Bilgi Teknoljileri</Company>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="RabbitMQ.Client" Version="6.8.1" />
+	</ItemGroup>
+
+</Project>
