@@ -12,10 +12,20 @@
 		<Title>Csoft Rabbit MQ Kütüphanesi</Title>
 		<Company>Çemrek Bilgi Teknoljileri</Company>
 		<RepositoryUrl>https://github.com/ilkrkdrylmz/CsoftRabbitMq</RepositoryUrl>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Copyright>Çemrek Bilgi Teknolojilerine Aittir.</Copyright>
+		<PackageLicenseFile>Licence.txt</PackageLicenseFile>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="RabbitMQ.Client" Version="6.8.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="Licence.txt">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
 	</ItemGroup>
 
 </Project>
